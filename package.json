@@ -1,0 +1,14 @@
+{
+  "name": "pet-spa",
+  "version": "1.0.0",
+  "description": "萌爪洗护 - 宠物洗护店官网",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0"
+  }
+}

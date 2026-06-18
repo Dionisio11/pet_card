@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>萌爪洗护 | PetSpa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest"></script>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav id="nav">
+  <div class="container">
+    <a href="#" class="nav-logo">
+      <i data-lucide="paw-print"></i> 萌爪洗护
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">服务项目</a></li>
+      <li><a href="#pricing">价格方案</a></li>
+      <li><a href="#about">关于我们</a></li>
+      <li><a href="#gallery">萌宠秀</a></li>
+      <li><a href="#contact">预约联系</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="菜单">
+      <i data-lucide="menu"></i>
+    </button>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-content">
+      <h1>给毛孩子<br>一次 <span>专业SPA体验</span></h1>
+      <p>温和配方 · 专业手法 · 让每一只宠物都洗得干净、洗得舒服</p>
+      <a href="#contact" class="hero-cta">
+        立即预约 <i data-lucide="chevron-right"></i>
+      </a>
+      <div class="hero-strip">
+        <div class="hero-strip-item">
+          <span class="num">2000+</span>
+          <span class="label">服务宠物</span>
+        </div>
+        <div class="hero-strip-item">
+          <span class="num">98%</span>
+          <span class="label">好评率</span>
+        </div>
+        <div class="hero-strip-item">
+          <span class="num">5年</span>
+          <span class="label">专业经验</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <span class="section-label">SERVICES</span>
+    <h2 class="section-title">我们的服务</h2>
+    <p class="section-desc">从基础清洁到高级护理，为不同体型、不同毛质的宠物提供量身定制的洗护方案</p>
+    <div class="services-grid">
+      <div class="service-card icon-bath">
+        <div class="icon-wrap"><i data-lucide="shower-head"></i></div>
+        <h3>深层清洁洗护</h3>
+        <p>使用宠物专用低敏香波，配合专业按摩手法，深层清洁毛发与皮肤，去除污垢与异味。</p>
+      </div>
+      <div class="service-card icon-cut">
+        <div class="icon-wrap"><i data-lucide="scissors"></i></div>
+        <h3>造型修剪</h3>
+        <p>资深美容师一对一设计造型，从基础修毛到创意修剪，让毛孩子焕然一新。</p>
+      </div>
+      <div class="service-card icon-nail">
+        <div class="icon-wrap"><i data-lucide="hand"></i></div>
+        <h3>指甲护理</h3>
+        <p>专业指甲修剪与打磨，避免劈裂和抓伤，附带肉垫护理，每一步都细致入微。</p>
+      </div>
+      <div class="service-card icon-spa">
+        <div class="icon-wrap"><i data-lucide="sparkles"></i></div>
+        <h3>精油SPA护理</h3>
+        <p>天然植物精油香薰SPA，舒缓宠物焦虑情绪，养护毛发光泽，享受治愈时光。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="container">
+    <span class="section-label">PRICING</span>
+    <h2 class="section-title">透明定价</h2>
+    <p class="section-desc">价格清晰透明，无隐藏消费。首次体验享八折优惠</p>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>基础洗护</h3>
+        <div class="price">¥98 <small>/ 次</small></div>
+        <ul>
+          <li><i data-lucide="check"></i> 全身深层清洁</li>
+          <li><i data-lucide="check"></i> 耳道清理</li>
+          <li><i data-lucide="check"></i> 指甲修剪</li>
+          <li><i data-lucide="check"></i> 毛发吹干梳理</li>
+          <li><i data-lucide="check"></i> 肉垫护理</li>
+        </ul>
+        <button class="pricing-cta secondary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">选择方案</button>
+      </div>
+      <div class="pricing-card featured">
+        <div class="pricing-badge">人气推荐</div>
+        <h3>尊享护理</h3>
+        <div class="price">¥198 <small>/ 次</small></div>
+        <ul>
+          <li><i data-lucide="check"></i> 基础洗护全部项目</li>
+          <li><i data-lucide="check"></i> 精油SPA浸泡</li>
+          <li><i data-lucide="check"></i> 专业造型修剪</li>
+          <li><i data-lucide="check"></i> 毛发深层滋养</li>
+          <li><i data-lucide="check"></i> 牙齿清洁护理</li>
+        </ul>
+        <button class="pricing-cta primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">立即预约</button>
+      </div>
+      <div class="pricing-card">
+        <h3>豪华套餐</h3>
+        <div class="price">¥328 <small>/ 次</small></div>
+        <ul>
+          <li><i data-lucide="check"></i> 尊享护理全部项目</li>
+          <li><i data-lucide="check"></i> 个性化创意造型</li>
+          <li><i data-lucide="check"></i> 皮毛检测与养护</li>
+          <li><i data-lucide="check"></i> 宠物营养咨询</li>
+          <li><i data-lucide="check"></i> 专属养护礼包</li>
+        </ul>
+        <button class="pricing-cta secondary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">选择方案</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image-wrap">
+        <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=800&q=80" alt="店内环境" loading="lazy">
+      </div>
+      <div class="about-text">
+        <span class="section-label">ABOUT</span>
+        <h2 class="section-title">用心对待每一只毛孩子</h2>
+        <p>萌爪洗护成立于2019年，我们相信每一只宠物都值得被温柔以待。从水温到手法，从产品选择到环境营造，每一个细节都经过反复打磨。</p>
+        <p>我们只使用通过国际安全认证的宠物洗护产品，所有美容师均持有国家宠物美容师资格证，拥有五年以上从业经验。店内配备恒温spa浴缸、负离子吹风机等专业设备，让每一次洗护都成为宠物的享受。</p>
+        <div class="about-stats">
+          <div class="about-stat">
+            <span class="num">2000+</span>
+            <span class="label">服务毛孩子</span>
+          </div>
+          <div class="about-stat">
+            <span class="num">99%</span>
+            <span class="label">客户满意度</span>
+          </div>
+          <div class="about-stat">
+            <span class="num">5+</span>
+            <span class="label">年行业经验</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="container">
+    <span class="section-label">GALLERY</span>
+    <h2 class="section-title centered">萌宠秀</h2>
+    <p class="section-desc centered">看看毛孩子们在这里的美丽变身</p>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80" alt="宠物洗护" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400&q=80" alt="宠物美容" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1544568100-847a948585b9?w=400&q=80" alt="宠物修剪" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&q=80" alt="猫咪" loading="lazy">
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?w=400&q=80" alt="狗狗" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <span class="section-label">CONTACT</span>
+        <h2 class="section-title">预约 & 联系我们</h2>
+        <p class="section-desc" style="margin-bottom:32px">来之前打个招呼，我们好提前准备</p>
+        <div class="contact-info">
+          <h3>门店信息</h3>
+          <div class="contact-item">
+            <i data-lucide="map-pin"></i>
+            <div>
+              <div class="label">地址</div>
+              <div class="value">上海市静安区南京西路1788号 1F-08</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i data-lucide="phone"></i>
+            <div>
+              <div class="label">电话</div>
+              <div class="value">021-5288 9966</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i data-lucide="message-circle"></i>
+            <div>
+              <div class="label">微信</div>
+              <div class="value">MengZhua_Spa</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i data-lucide="clock"></i>
+            <div style="width:100%">
+              <div class="label">营业时间</div>
+              <div class="contact-hours">
+                <div class="row"><span class="day">周一 — 周五</span><span class="time">09:00 — 20:00</span></div>
+                <div class="row"><span class="day">周六 — 周日</span><span class="time">10:00 — 21:00</span></div>
+                <div class="row"><span class="day">法定节假日</span><span class="time">10:00 — 18:00</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <form id="contactForm">
+          <input type="text" name="name" placeholder="您的姓名" required>
+          <input type="tel" name="phone" placeholder="手机号码" required>
+          <select name="service" required>
+            <option value="">选择服务项目</option>
+            <option value="基础洗护 ¥98">基础洗护 ¥98</option>
+            <option value="尊享护理 ¥198">尊享护理 ¥198</option>
+            <option value="豪华套餐 ¥328">豪华套餐 ¥328</option>
+          </select>
+          <input type="text" name="pet" placeholder="宠物种类（如：金毛/布偶猫）" required>
+          <textarea name="note" placeholder="备注信息（如：怕生、皮肤敏感等）"></textarea>
+          <button type="submit"><i data-lucide="send" style="width:18px;height:18px;"></i> 提交预约</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>
+      <div class="footer-logo"><i data-lucide="paw-print"></i> 萌爪洗护</div>
+      <p>用心对待每一只毛孩子<br>让洗护成为一种享受</p>
+      <div class="footer-social">
+        <a href="#" aria-label="微信"><i data-lucide="message-circle"></i></a>
+        <a href="#" aria-label="微博"><i data-lucide="at-sign"></i></a>
+        <a href="#" aria-label="小红书"><i data-lucide="book-open"></i></a>
+      </div>
+    </div>
+    <div>
+      <h4>快速链接</h4>
+      <a href="#services">服务项目</a><br>
+      <a href="#pricing">价格方案</a><br>
+      <a href="#about">关于我们</a><br>
+      <a href="#gallery">萌宠秀</a><br>
+      <a href="#contact">预约联系</a>
+    </div>
+    <div>
+      <h4>服务时间</h4>
+      <p>周一到周五 09:00-20:00</p>
+      <p>周末及假日 10:00-21:00</p>
+      <p style="margin-top:16px;color:rgba(255,255,255,0.8)">首次体验享八折优惠</p>
+    </div>
+    <div class="footer-bottom">
+      &copy; <%= currentYear %> 萌爪洗护 PetSpa. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast">预约已提交，我们会尽快联系您</div>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
